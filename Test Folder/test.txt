@@ -1,0 +1,25 @@
+--- TEST CASE 1: Instantiating Objects and Adding to Inventory ---
+System: 'Gaming Laptop' has been added to the master inventory.
+System: 'Wireless Mouse' has been added to the master inventory.
+System: 'Mechanical Keyboard' has been added to the master inventory.
+
+=== Current Store Inventory ===
+[P-001] Gaming Laptop - $1200.00 (In Stock: 5)
+[P-002] Wireless Mouse - $25.50 (In Stock: 50)
+[P-003] Mechanical Keyboard - $85.00 (In Stock: 20)
+===============================
+
+--- TEST CASE 2: Calling Methods to Modify Object States ---
+Sold 2 unit(s) of Gaming Laptop. Remaining stock: 3
+Failed to sell 60 of Wireless Mouse. Not enough stock!
+Restocked 10 unit(s) of Mechanical Keyboard. New stock: 30
+
+=== Current Store Inventory ===
+[P-001] Gaming Laptop - $1200.00 (In Stock: 3)
+[P-002] Wireless Mouse - $25.50 (In Stock: 50)
+[P-003] Mechanical Keyboard - $85.00 (In Stock: 30)
+===============================
+
+--- TEST CASE 3: System-Wide Calculations ---
+Total Value of all stock combined: $7,425.00
+PS C:\Users\Monette\Downloads> 
